@@ -575,4 +575,4 @@ This package is open-sourced software licensed under the [MIT license](LICENSE.m
 
 ---
 
-Made with ❤️ by the Supabase team
+Made with ❤️ by Draidel.com
