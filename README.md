@@ -1,8 +1,8 @@
 # Laravel Supabase Auth
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/supabase/laravel-auth.svg?style=flat-square)](https://packagist.org/packages/supabase/laravel-auth)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/supabase/laravel-auth/Tests?label=tests)](https://github.com/supabase/laravel-auth/actions)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/supabase/laravel-auth/Check%20&%20fix%20styling?label=code%20style)](https://github.com/supabase/laravel-auth/actions)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/supabase/laravel-auth/Tests?label=tests)](https://github.com/Draidel/laravel-supabase-auth/actions)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/supabase/laravel-auth/Check%20&%20fix%20styling?label=code%20style)](https://github.com/Draidel/laravel-supabase-auth/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/supabase/laravel-auth.svg?style=flat-square)](https://packagist.org/packages/supabase/laravel-auth)
 
 An enterprise-grade Laravel package that completely replaces Laravel's native authentication system with Supabase authentication. Built with production-ready features including circuit breakers, rate limiting, comprehensive caching, monitoring, and advanced security.
@@ -569,9 +569,9 @@ This package is open-sourced software licensed under the [MIT license](LICENSE.m
 ## 📞 Support
 
 - 📖 [Documentation](https://supabase.github.io/laravel-auth)
-- 🐛 [Issue Tracker](https://github.com/supabase/laravel-auth/issues)
-- 💬 [Discussions](https://github.com/supabase/laravel-auth/discussions)
-- 🌟 [Give us a star](https://github.com/supabase/laravel-auth) if this package helped you!
+- 🐛 [Issue Tracker](https://github.com/Draidel/laravel-supabase-auth/issues)
+- 💬 [Discussions](https://github.com/Draidel/laravel-supabase-auth/discussions)
+- 🌟 [Give us a star](https://github.com/Draidel/laravel-supabase-auth/laravel-auth) if this package helped you!
 
 ---
 
