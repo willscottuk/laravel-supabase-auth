@@ -1,0 +1,74 @@
+{
+    "name": "supabase/laravel-auth",
+    "description": "Enterprise-grade Laravel package providing complete Supabase authentication integration with advanced security, monitoring, and scalability features",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "supabase", "authentication", "auth", "jwt", "oauth", "enterprise"],
+    "homepage": "https://github.com/supabase/laravel-auth",
+    "support": {
+        "issues": "https://github.com/supabase/laravel-auth/issues",
+        "source": "https://github.com/supabase/laravel-auth",
+        "docs": "https://supabase.github.io/laravel-auth"
+    },
+    "authors": [
+        {
+            "name": "Supabase Team",
+            "email": "opensource@supabase.io",
+            "homepage": "https://supabase.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "firebase/php-jwt": "^6.8",
+        "psr/log": "^3.0",
+        "illuminate/cache": "^10.0|^11.0",
+        "illuminate/validation": "^10.0|^11.0",
+        "ramsey/uuid": "^4.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "orchestra/testbench": "^8.0|^9.0",
+        "mockery/mockery": "^1.6",
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "rector/rector": "^0.18",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\LaravelAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Supabase\\LaravelAuth\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Supabase\\LaravelAuth\\SupabaseAuthServiceProvider"
+            ],
+            "aliases": {
+                "SupabaseAuth": "Supabase\\LaravelAuth\\Facades\\SupabaseAuth"
+            }
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage",
+        "analyse": "phpstan analyse",
+        "format": "php-cs-fixer fix",
+        "refactor": "rector process"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

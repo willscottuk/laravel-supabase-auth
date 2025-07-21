@@ -1,0 +1,10 @@
+parameters:
+    level: 8
+    paths:
+        - src
+    excludePaths:
+        - tests
+    ignoreErrors:
+        - '#Method .*Guard::.* has parameter \$.*Provider with no value type specified in iterable type array#'
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
