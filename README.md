@@ -568,7 +568,6 @@ This package is open-sourced software licensed under the [MIT license](LICENSE.m
 
 ## 📞 Support
 
-- 📖 [Documentation](https://supabase.github.io/laravel-auth)
 - 🐛 [Issue Tracker](https://github.com/Draidel/laravel-supabase-auth/issues)
 - 💬 [Discussions](https://github.com/Draidel/laravel-supabase-auth/discussions)
 - 🌟 [Give us a star](https://github.com/Draidel/laravel-supabase-auth/laravel-auth) if this package helped you!
