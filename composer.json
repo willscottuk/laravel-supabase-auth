@@ -1,20 +1,20 @@
 {
-    "name": "supabase/laravel-auth",
+    "name": "draidel/laravel-supabase-auth",
     "description": "Enterprise-grade Laravel package providing complete Supabase authentication integration with advanced security, monitoring, and scalability features",
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "supabase", "authentication", "auth", "jwt", "oauth", "enterprise"],
-    "homepage": "https://github.com/supabase/laravel-auth",
+    "homepage": "https://github.com/draidel/laravel-supabase-auth",
     "support": {
-        "issues": "https://github.com/supabase/laravel-auth/issues",
-        "source": "https://github.com/supabase/laravel-auth",
-        "docs": "https://supabase.github.io/laravel-auth"
+        "issues": "https://github.com/draidel/laravel-supabase-auth/issues",
+        "source": "https://github.com/draidel/laravel-supabase-auth",
+        "docs": "https://draidel.github.io/laravel-supabase-auth"
     },
     "authors": [
         {
-            "name": "Supabase Team",
-            "email": "opensource@supabase.io",
-            "homepage": "https://supabase.com"
+            "name": "Draidel Team",
+            "email": "opensource@draidel.com",
+            "homepage": "https://draidel.com"
         }
     ],
     "require": {
@@ -39,21 +39,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Supabase\\LaravelAuth\\": "src/"
+            "Draidel\\LaravelSupabaseAuth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Supabase\\LaravelAuth\\Tests\\": "tests/"
+            "Draidel\\LaravelSupabaseAuth\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Supabase\\LaravelAuth\\SupabaseAuthServiceProvider"
+                "Draidel\\LaravelSupabaseAuth\\SupabaseAuthServiceProvider"
             ],
             "aliases": {
-                "SupabaseAuth": "Supabase\\LaravelAuth\\Facades\\SupabaseAuth"
+                "SupabaseAuth": "Draidel\\LaravelSupabaseAuth\\Facades\\SupabaseAuth"
             }
         }
     },
