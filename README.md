@@ -575,4 +575,4 @@ This package is open-sourced software licensed under the [MIT license](LICENSE.m
 
 ---
 
-Made with ❤️ by Draidel.com
+Made with ❤️ by [Draidel.com](https://www.draidel.com)
