@@ -23,8 +23,8 @@
         "guzzlehttp/guzzle": "^7.5",
         "firebase/php-jwt": "^6.8",
         "psr/log": "^3.0",
-        "illuminate/cache": "^10.0|^11.0",
-        "illuminate/validation": "^10.0|^11.0",
+        "illuminate/cache": "^10.0|^11.0|^12.0",
+        "illuminate/validation": "^10.0|^11.0|^12.0",
         "ramsey/uuid": "^4.7"
     },
     "require-dev": {
